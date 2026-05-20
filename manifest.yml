@@ -1,6 +1,6 @@
 services:
   gateway:
-    image: rajlodhi09/yourbeep:gateway-ebb0b5bdc5204be75f6925ed707f7b077e0f9acb
+    image: rajlodhi09/yourbeep:gateway-98b07f9c503886c84f45f0634c52657c2d516c91
     container_name: yourbeep-gateway
     restart: unless-stopped
     ports:
@@ -9,7 +9,7 @@ services:
       - .env
 
   identity:
-    image: rajlodhi09/yourbeep:identity-ebb0b5bdc5204be75f6925ed707f7b077e0f9acb
+    image: rajlodhi09/yourbeep:identity-98b07f9c503886c84f45f0634c52657c2d516c91
     container_name: yourbeep-identity
     restart: unless-stopped
     ports:
@@ -18,7 +18,7 @@ services:
       - .env
 
   content:
-    image: rajlodhi09/yourbeep:content-ebb0b5bdc5204be75f6925ed707f7b077e0f9acb
+    image: rajlodhi09/yourbeep:content-98b07f9c503886c84f45f0634c52657c2d516c91
     container_name: yourbeep-content
     restart: unless-stopped
     ports:
@@ -27,7 +27,7 @@ services:
       - .env
 
   commerce:
-    image: rajlodhi09/yourbeep:commerce-ebb0b5bdc5204be75f6925ed707f7b077e0f9acb
+    image: rajlodhi09/yourbeep:commerce-98b07f9c503886c84f45f0634c52657c2d516c91
     container_name: yourbeep-commerce
     restart: unless-stopped
     ports:
